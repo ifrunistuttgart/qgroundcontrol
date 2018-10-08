@@ -3516,7 +3516,6 @@ Used to calculate increased terrain random walk nosie due to movement</short_des
         <value code="3">OSD</value>
         <value code="4">Magic</value>
         <value code="5">Config</value>
-        <value code="6">Iridium</value>
         <value code="7">Minimal</value>
       </values>
     </parameter>
@@ -3559,7 +3558,6 @@ Used to calculate increased terrain random walk nosie due to movement</short_des
         <value code="3">OSD</value>
         <value code="4">Magic</value>
         <value code="5">Config</value>
-        <value code="6">Iridium</value>
         <value code="7">Minimal</value>
       </values>
     </parameter>
@@ -3602,7 +3600,6 @@ Used to calculate increased terrain random walk nosie due to movement</short_des
         <value code="3">OSD</value>
         <value code="4">Magic</value>
         <value code="5">Config</value>
-        <value code="6">Iridium</value>
         <value code="7">Minimal</value>
       </values>
     </parameter>
@@ -4534,15 +4531,6 @@ towards MPC_ACC_HOR_MAX/MPC_ACC_UP_MAX with jerk limit</short_desc>
       <min>0.6</min>
       <unit>m/s</unit>
       <decimal>1</decimal>
-    </parameter>
-    <parameter default="1.0" name="MPC_MANTHR_MAX" type="FLOAT">
-      <short_desc>Maximum manual thrust</short_desc>
-      <long_desc>Limit max allowed thrust for Manual mode.</long_desc>
-      <min>0.0</min>
-      <max>1.0</max>
-      <unit>norm</unit>
-      <decimal>2</decimal>
-      <increment>0.01</increment>
     </parameter>
     <parameter default="0.08" name="MPC_MANTHR_MIN" type="FLOAT">
       <short_desc>Minimum manual thrust</short_desc>
